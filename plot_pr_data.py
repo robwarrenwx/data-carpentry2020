@@ -1,8 +1,8 @@
 import argparse
+import numpy as np
+import matplotlib.pyplot as plt
 import xarray as xr
 import cartopy.crs as ccrs
-import matplotlib.pyplot as plt
-import numpy as np
 import cmocean
 
 def convert_pr_units(clim):
